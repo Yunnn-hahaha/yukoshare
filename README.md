@@ -1,6 +1,6 @@
 # Yukoshare Page
 
-This is a simple one-page website that displays Yuko's contact information. It's hosted on GitHub Pages and can be accessed at [https://yourusername.github.io](https://yourusername.github.io).
+This is a simple one-page website that displays Yuko's contact information. It's hosted on GitHub Pages and can be accessed at [[https://yukoshare.com/](https://yukoshare.com/)].
 
 ## Installation
 
