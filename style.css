@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
     color: #333;
@@ -28,7 +28,7 @@ header {
 
 header h1 {
     font-size: 2.5rem;
-    color: #4a4a4a;
+    color: rgb(42, 110, 63); /* Updated title color */
 }
 
 .contact-info {
@@ -41,39 +41,71 @@ header h1 {
     color: #333;
 }
 
-.details {
+.contact-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
     margin-bottom: 40px;
 }
 
-.details h3 {
+.column {
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.column h3 {
     font-size: 1.6rem;
     color: #444;
     margin-bottom: 10px;
 }
 
-.details p, .details ul {
+.column p, .column ul {
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
-.details ul {
+.column ul {
     list-style-type: none;
+    padding: 0;
 }
 
-.details a {
+.column a {
     color: #007BFF;
     text-decoration: none;
 }
 
-.details a:hover {
+.column a:hover {
     text-decoration: underline;
+}
+
+.bottom-info {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-info h3 {
+    font-size: 1.6rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.bottom-info p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #333;
-    color: #fff;
+    background-color: rgba(169, 211, 158, 0.41);
+    color: #333;
     border-top: 1px solid #eaeaea;
 }
 
