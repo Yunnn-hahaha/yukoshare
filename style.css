@@ -55,6 +55,7 @@ header h1 {
     flex: 1;
     padding: 10px;
     background-color: rgba(169, 211, 158, 0.4);
+    margin-bottom: 20px;
     border-radius: 8px;
 }
 
