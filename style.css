@@ -52,7 +52,7 @@ header h1 {
 }
 
 .details {
-    flex: 1;
+    flex: 1 1 calc(50% - 20px); /* Each column takes up roughly half the container width, accounting for the gap */
     padding: 10px;
     background-color: rgba(169, 211, 158, 0.4);
     margin-bottom: 20px;
@@ -125,6 +125,10 @@ footer p {
         flex-direction: column;
     }
 
+    .details {
+    flex: 1 1 100%; /* Each column takes up roughly half the container width, accounting for the gap */
+    }
+
     .details h3 {
         font-size: 1.4rem;
     }
@@ -145,6 +149,10 @@ footer p {
 
     .contact-info h2 {
         font-size: 1.4rem;
+    }
+
+    .details {
+    flex: 1 1 100%; /* Each column takes up roughly half the container width, accounting for the gap */
     }
 
     .details h3 {
