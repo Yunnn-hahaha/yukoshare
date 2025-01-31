@@ -18,7 +18,8 @@
             <h2>You are always welcome to contact/visit us ♥</h2>
         </section>
 
-        <div class="shops">
+        <!-- Container for Shop Details -->
+        <div class="details-container">
             <section class="details" id="bubble-tea">
                 <h3>YUKO (Bubble Tea)</h3>
                 <address>
@@ -44,8 +45,8 @@
 
                 <h4>Odpiralni čas</h4>
                 <ul>
-                    <li>Ponedeljek – Sobota: 10:00 – 20:30</li>
-                    <li>Sobota: zaprto</li>
+                    <li>Ponedeljek – Petek: 10:00 – 20:30</li>
+                    <li>Sobota: Zaprto</li>
                     <li>Nedelja: 11:00 – 20:30</li>
                 </ul>
             </section>
@@ -61,9 +62,14 @@
         </section>
 
         <footer>
-            <p>&copy; 2024 Yuko Bubble Tea. All Rights Reserved.</p>
+            <p>&copy; <span id="current-year"></span> Yuko Bubble Tea. All Rights Reserved.</p>
         </footer>
     </div>
+
+    <script>
+        // Set current year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
 
 </body>
 </html>
